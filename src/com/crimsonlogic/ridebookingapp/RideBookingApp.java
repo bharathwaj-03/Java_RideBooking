@@ -215,15 +215,15 @@ public class RideBookingApp {
         Driver driver =
                 new Driver("Raj", "raj@gmail.com", "9999999999");
 
-        Vehicle bike =
+        Bike bike =
                 new Bike(101, "Pulsar", "Black",
                         "MH12AB1234", "45", "Raj", true);
 
-        Vehicle auto =
+        Auto auto =
                 new Auto(102, "Bajaj Auto", "Yellow",
                         "MH12CD5678", "30", "Ravi", false);
 
-        Vehicle cab =
+        Cab cab =
                 new Cab(103, "Swift Dzire", "White",
                         "MH12EF9876", "20", "Suresh", false);
 
